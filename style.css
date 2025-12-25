@@ -31,6 +31,7 @@ body {
     border: 2px solid #fff;
 }
 
+
 .header-icons {
     margin-left: 15px;
 }
@@ -72,6 +73,58 @@ body {
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+/* SIGNUP MODAL */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modal-content h2 {
+    text-align: center;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background: #6aa84f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
 
 .shop-btn {
@@ -437,25 +490,32 @@ body {
     gap: 30px;
   }
 
-  .banner-grid {
-    grid-template-columns: 1fr;
-  }
+    .banner-grid {
+        grid-template-columns: 1fr;
+    }
 
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
-  .footer-columns {
-    flex-direction: column;
-  }
+    .footer-columns {
+        flex-direction: column;
+    }
     
-  .footer-bottom {
-      flex-direction: column;
-  }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    .eachskin{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 768px) {
     .products-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+    .eachskin{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
