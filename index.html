@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Care</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">Beauty Care</div>
+        <input type="text" placeholder="Search..." class="search-input" onkeyup="searchProducts()">
+        <div class="header-icons">
+            <span class="icon">❤</span>
+            <span class="icon">🛒</span>
+            <span class="icon">👤</span>
+        </div>
+    </header>
+
+    <section id="homePage">
+
+        <!-- HERO SECTION -->
+        <div class="hero-container">
+            <section class="hero-content">
+                <div class="hero-text">
+                    <h1>The Korean Daily <br> Sheet Mask</h1><br>
+                    <p>Sheet Mask Routine for Morning Prep and Nighttime Nourishment</p><br>
+                    <button class="shop-btn">Shop Now</button>
+                </div>
+            </section>
+            <div class="hero-image">
+                <img src="image/photo1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- CATEGORY ICONS -->
+        <section class="category-section">
+            <div class="category-item">
+                <div class="category-circle">
+                    <img src="image/cream1.png" alt="">
+                </div>
+                <p>Skincare Cream</p>
+            </div>
+            <div class="category-item">
+                <div class="category-circle">
+                    <img src="image/sun1.png" alt="">
+                </div>
+                <p>Sunscreen</p>
+            </div>
+            <div class="category-item">
+                <div class="category-circle">
+                    <img src="image/serum1.png" alt="">
+                </div>
+                <p>Serum</p>
+            </div>
+            <div class="category-item">
+                <div class="category-circle">
+                    <img src="image/foam1.png" alt="">
+                </div>
+                <p>Foam</p>
+            </div>
+        </section>
+
+        <div class="banner-container">
+            <!-- Two Product Banner Container -->
+            <div class="banner-grid">
+                <div class="banner-card">
+                    <div class="banner-image">
+                        <img src="image/banner1.jpg">
+                    </div>
+                    <div class="banner-text">
+                        <div class="banner-info">
+                            <h3>Soothing Collagen Mask for</h3>
+                            <p>Sensitive and Stressed Skin</p>
+                        </div>
+                        <button class="banner-btn">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="banner-card">
+                    <div class="banner-image">
+                        <img src="image/banner2.jpg">
+                    </div>
+                    <div class="banner-text">
+                        <div class="banner-info">
+                            <h3>Signature Medicube Products</h3>
+                            <p>PDRN Pink Line for Brightening</p>
+                        </div>
+                        <button class="banner-btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Products Section -->
+        <div class="products-container">
+            <h2 class="products-title">All Products</h2>
+            <!-- Products Grid -->
+            <div class="products-grid">
+                
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="image/pic1.jpg" alt="Product 1" class="product-image">
+                    <h3 class="product-name">Medicube Triple Collagen Toner</h3>
+                    <p class="product-price">$16.5</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="image/pic2.png" alt="Product 2" class="product-image">
+                    <h3 class="product-name">Medicube Triple Collagen Cream Deep</h3>
+                    <p class="product-price">$15</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="image/pic3.png" alt="Product 3" class="product-image">
+                    <h3 class="product-name">Medicube Zero Pore Pads 2.0</h3>
+                    <p class="product-price">$12.90</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="image/pic4.png" alt="Product 4" class="product-image">
+                    <h3 class="product-name">Exosome Shot Pore Ampoule 7500</h3>
+                    <p class="product-price">$16.3</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="image/pic5.png" alt="Product 5" class="product-image">
+                    <h3 class="product-name">Mighty Bamboo Panthenol Cream 100ml</h3>
+                    <p class="product-price">$12</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="image/pic6.png" alt="Product 6" class="product-image">
+                    <h3 class="product-name">ANUA Heartleaf Quercetinol Po</h3>
+                    <p class="product-price">$7</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <img src="image/pic7.png" alt="Product 7" class="product-image">
+                    <h3 class="product-name">Mixsoon Bean Essence 50ml</h3>
+                    <p class="product-price">$11.2</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <img src="image/pic8.png" alt="Product 8" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                
+            </div>
+            <!-- View More Button -->
+            <div class="view-more-container">
+                <button onclick="showAllProducts()" class="view-more-btn">View More Products →</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="allProductsPage" class="hidden">
+        <button onclick="goBackHome()" class="back-btn">←</button>
+        <div class="all-products-container">
+            <h2 class="products-title">All Our Products in stock</h2>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <img src="image/pic9.png" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic10.png" alt="Product 10" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic11.png" alt="Product 11" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic12.png" alt="Product 12" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic13.png" alt="Product 13" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic14.png" alt="Product 14" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic15.png" alt="Product 15" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic16.png" alt="Product 16" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic17.png" alt="Product 17" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic18.png" alt="Product 18" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic19.png" alt="Product 19" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic20.png" alt="Product 20" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic21.png" alt="Product 21" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic22.png" alt="Product 22" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic23.png" alt="Product 23" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic24.png" alt="Product 24" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic25.png" alt="Product 25" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic26.png" alt="Product 26" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic27.png" alt="Product 27" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic28.png" alt="Product 28" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic29.png" alt="Product 29" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic30.png" alt="Product 30" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic31.png" alt="Product 31" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic32.png" alt="Product 32" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic33.png" alt="Product 33" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic34.png" alt="Product 34" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic35.png" alt="Product 35" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="image/pic36.png" alt="Product 36" class="product-image">
+                    <h3 class="product-name">Arencia Fresh Green Mochi Cleanser 120g</h3>
+                    <p class="product-price">$13</p>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="Js/java.js"></script>
+
+    <section id="eachskin">
+      <div class="eachskin">
+        <di class="skin">
+          <img src="image/type1.png">
+          <p>Moisturizers Best for Oily Skin</p>
+        </di>
+        <di class="skin">
+          <img src="image/type2.png">
+          <p>Skincare Set for Combination skin</p>
+        </di>
+        <di class="skin">
+          <img src="image/type3.png">
+          <p>Skincare Set  for try skin</p>
+        </di>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Three Columns -->
+            <div class="footer-columns">
+                <!-- Column 1: Beauty Care -->
+                <div class="footer-column">
+                    <h3>Beauty Care</h3>
+                    <p>Our website always provide a good service to all our customer</p>
+                </div>
+                
+                <!-- Column 2: Customer Service -->
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shopping & Return</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Contact Us -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>Street 93 Toul Sangkae<br>Phnom Penh</div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:beautycare@gmail.com">beautycare@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <a href="tel:+85512923789">(855+) 12923798</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <p>@2025 Beaty Care All right Service</p>
+                <div class="footer-links">
+                    <a href="#">Term of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
